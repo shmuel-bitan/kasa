@@ -55,6 +55,7 @@ function Fiche() {
                             <div className="proprietaire-note">
                                 <div className="information-propietaire">
                                     <span className="nom-proprietaire">{ficheLogement?.host.name}</span>
+                                    <span className="nom-proprietaire">pour plus d'information téléphoner au +972526603612</span>
                                     
                                 </div>
                                

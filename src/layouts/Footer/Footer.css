@@ -10,6 +10,7 @@ footer {
     flex-direction: column;
     height: 150px;
     padding: 25px 0px;
+    text-align: center;
   }
   
   #footer-container > img {
@@ -20,6 +21,10 @@ footer {
   #footer-container > p {
     color: #ffffff;
     text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: #ffffff;
   }
   
 

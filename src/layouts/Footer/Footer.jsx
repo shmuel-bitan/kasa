@@ -6,6 +6,7 @@ function Footer() {
     return(
         <footer>
             <div id="footer-container">
+                <a href="tel:+972526603612">CLIQUEZ POUR APPELER</a>
                 <img src={logoFooter} alt="Logo" />
                 <p>&copy; zimer tov beahava</p>
             </div>

@@ -45,6 +45,10 @@
     object-fit: cover;
     width: 64px;
 }
+.information-propietaire{
+    display: flex;
+    justify-content: space-between;
+}
 
 .note {
     align-items: center;
