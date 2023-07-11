@@ -7,7 +7,7 @@ function Footer() {
         <footer>
             <div id="footer-container">
                 <img src={logoFooter} alt="Logo" />
-                <p>&copy; 2020 Kasa. Tous droits réservés</p>
+                <p>&copy; zimer tov beahava</p>
             </div>
         </footer>
     );

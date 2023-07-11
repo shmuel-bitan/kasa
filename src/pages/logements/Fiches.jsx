@@ -3,8 +3,8 @@ import "./Fiches.css";
 import { useParams, Navigate } from 'react-router-dom';
 import ListeLogements from "../../assets/json/logements.json";
 import Carrousel from "../../components/Carrousel/Carrousel";
-import Etoile from "../../assets/images/Pages/Etoile.png";
-import EtoileVide from "../../assets/images/Pages/Etoile2.png";
+//import Etoile from "../../assets/images/Pages/Etoile.png";
+//import EtoileVide from "../../assets/images/Pages/Etoile2.png";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Tag from "../../components/Tag/tag";
 
@@ -19,7 +19,7 @@ function Fiche() {
 
 
     
-    /* Notes */
+    /* Notes 
     let noteLogement = [];
     let etoileComplete = true;
     for (let index = 0; index < 5; index++) {
@@ -31,7 +31,7 @@ function Fiche() {
         } else {
             noteLogement.push(<img key={index} className="etoile" src={EtoileVide} alt={`${ficheLogement?.rating}/5`}/>)
         }
-    }
+    }*/
 
     /* Équipements */
     const equipementsLogement = ficheLogement?.equipments.map((equipment, index) => {
@@ -55,11 +55,9 @@ function Fiche() {
                             <div className="proprietaire-note">
                                 <div className="information-propietaire">
                                     <span className="nom-proprietaire">{ficheLogement?.host.name}</span>
-                                    <img className="photo-propietaire" src={ficheLogement?.host.picture} alt="Propriétaire"/>
+                                    
                                 </div>
-                                <div className="note">
-                                    {noteLogement}
-                                </div>
+                               
                             </div>
                         </div>
                         <div className="description-equipements">
